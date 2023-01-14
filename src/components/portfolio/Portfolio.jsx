@@ -5,6 +5,37 @@ import PlantParenthood from '../../assets/plant-portfolio.png'
 import Cortex from '../../assets/cortex-portfolio.png'
 import Blackjack from '../../assets/blackjack-portfolio.png'
 
+const data = [
+  {
+    id: 1,
+    image: PaddleNW,
+    title: "Paddle NW",
+    github: "https://github.com/ngran4/Paddle-NW-App",
+    app: "https://paddlenw.herokuapp.com/"
+  },
+  {
+    id: 2,
+    image: PlantParenthood,
+    title: "Plant Parenthood",
+    github: "https://github.com/ngran4/Plant-Parenthood",
+    app: "https://plantparenthood22.herokuapp.com/"
+  },
+  {
+    id: 3,
+    image: Cortex,
+    title: "Cortex Habit Tracker",
+    github: "https://github.com/ngran4/Cortex",
+    app: "https://p2-habit-tracker.herokuapp.com/"
+  },
+  {
+    id: 4,
+    image: Blackjack,
+    title: "Blackjack",
+    github: "https://github.com/ngran4/P1-Blackjack",
+    app: "https://ngran4.github.io/P1-Blackjack/"
+  },
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -12,52 +43,23 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={PaddleNW} alt="" />
-          </div>
-          <h3>Paddle NW</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ngran4/Paddle-NW-App" className='btn' target='_blank'>Github</a>
-            <a href="https://paddlenw.herokuapp.com/" className='btn btn-primary' target='_blank'>App</a>
-          </div>
-        </article>
+        {
+          data.map(({id, image, title, github, app}) => {
+            return (
+            <article key={id} className='portfolio__item'>
+            <div className="portfolio__item-image">
+              <img src={image} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <div className="portfolio__item-cta">
+              <a href={github} className='btn' target='_blank'>Github</a>
+              <a href={app} className='btn btn-primary' target='_blank'>App</a>
+            </div>
+          </article>
+          )
+          })
+        }
 
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={PlantParenthood} alt="" />
-          </div>
-          <h3>Plant Parenthood</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ngran4/Plant-Parenthood" className='btn' target='_blank'>Github</a>
-            <a href="https://plantparenthood22.herokuapp.com/" className='btn btn-primary' target='_blank'>App</a>
-          </div>
-
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={Cortex} alt="" />
-          </div>
-          <h3>Cortex</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ngran4/Cortex" className='btn' target='_blank'>Github</a>
-            <a href="https://p2-habit-tracker.herokuapp.com/" className='btn btn-primary' target='_blank'>App</a>
-          </div>
-
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={Blackjack} alt="" />
-          </div>
-          <h3>Blackjack</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ngran4/P1-Blackjack" className='btn' target='_blank'>Github</a>
-            <a href="https://ngran4.github.io/P1-Blackjack/" className='btn btn-primary' target='_blank'>App</a>
-          </div>
-
-        </article>
       </div>
     </section>
   )
