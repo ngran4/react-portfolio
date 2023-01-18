@@ -14,8 +14,8 @@
   --color-bg: #F7F2E9;
   --color-bg-variant: #E6ddc9;
   --color-primary: #8c7462;
-  --color-white: #4e4844;
-  --color-light: rgba(29, 28, 27, 0.6);
+  --color-brown: #523824;
+  --color-grey: rgba(29, 28, 27, 0.6);
 
   --transition: all 400ms ease;
 
@@ -35,7 +35,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-brown);
   line-height: 1.7;
   background-image: url(../src/assets/portfolio-bg.png);
 }
@@ -65,7 +65,7 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-grey);
 }
 
 section > h2 {
@@ -74,7 +74,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-light);
+  color: var(--color-grey);
 }
 
 a {
@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-brown);
 }
 
 .btn {
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-brown);
   color: var(--color-bg);
   border-color: transparent;
 }
