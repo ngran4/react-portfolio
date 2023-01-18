@@ -60,6 +60,9 @@
 
 /* ============== MEDIA QUERIES (SM) ==============  */
 @media screen and (max-width: 600px) {
+  #experience {
+    display: unset;
+  }
   .experience__container {
     gap: 1rem;
   }

@@ -26,7 +26,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -63,6 +63,7 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1rem;
 }
 
 /* ============== MEDIA QUERIES (MED) ==============  */
@@ -84,6 +85,10 @@
 
 /* ============== MEDIA QUERIES (SM) ==============  */
 @media screen and (max-width: 600px) {
+  #about {
+    display: unset;
+  }
+  
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
@@ -99,7 +104,7 @@
   }
 
   .about__content p {
-    margin: 1.4rem 0;
+    margin: 1.5rem 0;
   }
 }
 
