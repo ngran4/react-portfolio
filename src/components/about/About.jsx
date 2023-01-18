@@ -32,8 +32,11 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum officia provident vel minus voluptates mollitia cumque, officiis doloribus earum et, at voluptate ullam aliquam eos nesciunt ex iste voluptatibus tenetur.</p>
-
+          <p>Motivated and detail-oriented individual with a background in the medical field and a passion for technology. 
+            Seeking to leverage my skills and experience in software engineering by transitioning into a role as a full-stack developer. 
+            Recently completed a full-time immersive course at General Assembly where I gained hands-on experience in modern software development technologies and practices. 
+            Previously on the medical school track, I have a strong foundation in problem-solving and critical thinking, as well as excellent communication and teamwork skills. 
+            Looking to join a dynamic and innovative team where I can continue to learn and grow as a developer.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>        
         </div>
       </div>
