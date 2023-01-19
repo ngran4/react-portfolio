@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ header {
   height: 32rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 5rem 5rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -75,4 +75,16 @@ header {
   .header__socials, .scroll__down {
     display: none;
   }
+
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    height: 125vh;
+  }
+
+  .header__socials, .scroll__down {
+    display: none;
+  }
+
 }
