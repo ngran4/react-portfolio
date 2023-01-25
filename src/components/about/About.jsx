@@ -32,11 +32,11 @@ const About = () => {
             </article>
           </div>
 
-          <p>Motivated and detail-oriented individual with a background in the medical field and a passion for technology. 
-            Seeking to leverage my skills and experience in software engineering by transitioning into a role as a full-stack developer. 
-            Recently completed a full-time immersive course at General Assembly where I gained hands-on experience in modern software development technologies and practices. 
-            Previously on the medical school track, I have a strong foundation in problem-solving and critical thinking, as well as excellent communication and teamwork skills. 
-            Looking to join a dynamic and innovative team where I can continue to learn and grow as a developer.</p>
+          <p>I am a recent graduate of General Assembly's Software Engineering Immersive program. 
+            Previously pursuing a career in medicine and witnessing the challenges of the COVID-19 pandemic, I had a change in perspective and found a new passion in software engineering. 
+            I am proficient in various programming languages and frameworks including HTML/CSS, JavaScript, MERN stack, and Python.  
+            With a strong background in problem-solving and logical thinking, I am eager to apply my skills in a dynamic and fast-paced environment 
+            where I can build relationships and collaborate with others while creating products that enhance people's everyday experiences.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>        
         </div>
       </div>
