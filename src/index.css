@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@100;200&display=swap');
 
 * {
   margin: 0;
@@ -11,9 +11,9 @@
 }
 
 :root {
-  --color-bg: #F7F2E9;
-  --color-bg-variant: #E6ddc9;
-  --color-primary: #8c7462;
+  --color-bg: rgba(233, 227, 221);;
+  --color-bg-variant: #e2d9d3;
+  --color-primary: #705948;
   --color-brown: #523824;
   --color-grey: rgba(29, 28, 27, 0.6);
 
@@ -33,11 +33,11 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bodoni Moda', serif;
   background: var(--color-bg);
   color: var(--color-brown);
   line-height: 1.7;
-  background-image: url(../src/assets/portfolio-bg.png);
+  /* background-image: url(../src/assets/portfolio-bg.png); */
 }
 
 /* ============== GENERAL STYLES ==============  */
@@ -50,13 +50,17 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-weight: 500;
 }
 
 h1 {
   font-size: 2.5rem;
+}
+
+.label {
+  font-size: 30px;
+  font-style: italic;
 }
 
 section {
@@ -71,6 +75,8 @@ section > h2, section > h5 {
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .text-light {
