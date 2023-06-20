@@ -1,5 +1,5 @@
 header {
-  height: 55vh;
+  height: 60vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -14,7 +14,7 @@ header {
 .name-display {
   display: inline-block;
   font-style:italic;
-  font-size: 90px;
+  font-size: 100px;
 }
 
 .first_name {
@@ -30,10 +30,16 @@ header {
 
 /* =================== CTA =================== */
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
-  gap: 1.2rem;
+  gap: 2rem;
   justify-content: left;
+}
+
+.download-icon {
+  vertical-align: bottom;
+  line-height: 1.40;
+  margin-left: 10px;
 }
 
 /* =================== SOCIALS =================== */
@@ -41,7 +47,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
   position: absolute;
   right: 0;
   top: 2rem;
@@ -50,8 +56,9 @@ header {
 .header__socials::after {
   content: '';
   width: 1px;
-  height: 2rem;
+  height: 6rem;
   background: var(--color-primary);
+  margin-top: 2rem;
 }
 
 /* =================== ME =================== */
