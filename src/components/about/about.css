@@ -28,13 +28,15 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+  margin-top: 45px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 10px;
   text-align: center;
   transition: var(--transition);
 }
@@ -48,11 +50,12 @@
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3px;
 }
 
 .about__card h5 {
   font-size: 0.95rem;
+  font-weight: 200;
 }
 
 .about__card small {
@@ -61,10 +64,17 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  display: flex;
+  margin: -5px 0 2.6rem;
   color: var(--color-grey);
-  font-size: 1rem;
+  font-size: 15px;
+  text-align: center;
 }
+
+.btn-about {
+  text-align: center;
+}
+
 
 /* ============== MEDIA QUERIES (MED) ==============  */
 @media screen and (max-width: 1024px) {
