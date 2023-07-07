@@ -50,7 +50,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={image} alt={title} />
             </div>
-            <h3>{title}</h3>
+            <h3 className='montserrat'>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} className='btn montserrat' target='_blank'>GITHUB</a>
               <a href={app} className='btn btn-primary montserrat' target='_blank'>APP</a>
