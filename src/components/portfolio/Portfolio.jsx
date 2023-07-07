@@ -23,7 +23,7 @@ const data = [
   {
     id: 3,
     image: Cortex,
-    title: "Cortex Habit Tracker",
+    title: "Habit Tracker",
     github: "https://github.com/ngran4/Cortex",
     app: "https://p2-habit-tracker.herokuapp.com/"
   },
