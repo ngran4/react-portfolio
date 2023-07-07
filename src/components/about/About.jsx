@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id='about'>
       {/* <h5>Get To Know</h5> */}
-      <h2 className="label">ABOUT ME</h2>
+      <h2>ABOUT ME</h2>
 
       <div className="container about__container">
         <div className='about__info'>
