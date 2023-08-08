@@ -3,9 +3,6 @@ Created a Portfolio website to better display my personality, design capabilitie
 
 # Features
 
-## Resume/CV
-Downloadable from website
-
 ## About Me
 I am a dedicated Full Stack Software Engineer with a strong background in the medical field and a passion for technology. Currently, I'm actively engaging as a Technical Assistant at General Assembly, refining my analytical and problem-solving abilities while guiding students on their journey to making impactful change as software engineers. 
 
@@ -16,6 +13,9 @@ Contact form can be found by scrolling to the bottom of the page. Socials are lo
 
 ## Experience
 Lists experience level with front and backend technologies.
+
+## Resume/CV
+Downloadable from website
 
 ## Project Showcase
 **Project 1: Blackjack**
