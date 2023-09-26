@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import MEE from "../../assets/achilles.jpeg"
+import MEE from "../../assets/achilles.jpg"
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
