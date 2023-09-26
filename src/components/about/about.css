@@ -111,7 +111,9 @@
   }
 
   .about__content {
-    text-align: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-left: 20px;
   }
 
   .about__content p {

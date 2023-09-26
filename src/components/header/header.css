@@ -1,5 +1,5 @@
 header {
-  height: 60vh;
+  height: 65vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -88,14 +88,20 @@ header {
 /* ============== MEDIA QUERIES (MED) ==============  */
 @media screen and (max-width: 1024px) {
   header {
-    height: 55vh;
+    /* height: 65vh; */
+    display: unset;
   }
 }
 
 /* ============== MEDIA QUERIES (SM) ==============  */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    display: unset;
+  }
+
+  .name-display {
+    font-size: 80px;
+    margin-left: 0;
   }
 
   .header__socials, .scroll__down {
@@ -106,7 +112,14 @@ header {
 
 @media screen and (max-width: 400px) {
   header {
-    height: 125vh;
+    /* height: 40vh; */
+    width: 90%;
+    display: unset;
+  }
+
+  .name-display {
+    font-size: 55px;
+    margin-left: 0;
   }
 
   .header__socials, .scroll__down {
