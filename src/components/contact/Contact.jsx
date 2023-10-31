@@ -26,14 +26,14 @@ const Contact = () => {
       <h2>CONTACT ME</h2>
 
       <div className="container contact__container montserrat">
-        <div className="contact__options">
+        {/* <div className="contact__options">
           <article className='contact__option'>
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>nicgranville@gmail.com</h5>
             <a href="mailto:nicgranville@gmail.com" target="_blank">Send a message</a>
           </article>
-        </div>
+        </div> */}
 
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
