@@ -4,6 +4,8 @@ import PaddleNW from '../../assets/paddle-portfolio.png'
 import PlantParenthood from '../../assets/plant-portfolio.png'
 import Cortex from '../../assets/cortex-portfolio.png'
 import Blackjack from '../../assets/blackjack-portfolio.png'
+import DoGo from "../../assets/dogo-portfolio.png"
+import Dojo from "../../assets/dojo-portfolio.png"
 
 const data = [
   {
@@ -34,6 +36,19 @@ const data = [
     github: "https://github.com/ngran4/P1-Blackjack",
     app: "https://ngran4.github.io/P1-Blackjack/"
   },
+  {
+    id: 5,
+    image: DoGo,
+    title: "DogGo",
+    github: "https://github.com/ngran4/DogGo-fe?tab=readme-ov-file",
+  },
+  {
+    id: 6,
+    image: Dojo,
+    title: "Dojo Lessons",
+    github: "https://github.com/joindojo/Dojo-2.0",
+    app: "dojolessons.co"
+  }
 ]
 
 const Portfolio = () => {
